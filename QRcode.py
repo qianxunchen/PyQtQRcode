@@ -162,7 +162,7 @@ class Start(QtWidgets.QWidget):
                 return
         fill_temp = "./Tools/temp"
         img.save(fill_temp)
-        # # 弹窗
+        # 弹窗
         ok = QMessageBox()
         ok.setWindowTitle(u'提示')
         ok.setText("二维码已生成!")
